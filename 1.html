@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<title>please</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="styles1.css" />
+<body>
+   
+    <!-- From Uiverse.io by catraco --> 
+<div class="container">
+  <div class="card-container">
+    <div class="card blue">
+      <div class="top">
+        <p class="title">Message From Jonathan</p>
+      </div>
+      <p class="desc">Please tashie can you help me <br>by doing the assignment <br>Pretty please <br>I promise to be a slightly better student</p>
+    </div>
+    <div class="card pink">
+      <div class="top">
+        <p class="title"><!-- From Uiverse.io by mobinkakei --> 
+            <div class="wrapper">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="shadow"></div>
+                <div class="shadow"></div>
+                <div class="shadow"></div>
+            </div>
+        </p>
+      </div>
+      
+      <p class="desc" style="font-size: large;">So what do you say ? </p>
+    </div>
+    <div class="card yellow">
+      <div class="top">
+        <p class="title">So yes or No.....</p>
+      </div>
+      <p class="desc"><!-- From Uiverse.io by omriluz --> 
+        
+        <button class="b3" onclick="sendWhatsAppMessage('Yes, I’ll do the project for you.')">Yes</button>
+        <button class="b1" onclick="sendWhatsAppMessage('No, I won’t do the project for you.')">No</button>
+
+         </p>
+    </div>
+  </div>
+</div>
+<script>
+  function sendWhatsAppMessage(message) {
+    const phoneNumber = "27791561843";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  }
+</script>
+</body>
