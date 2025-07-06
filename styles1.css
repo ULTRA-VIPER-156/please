@@ -17,6 +17,10 @@ body {
     -webkit-backdrop-filter: blur(10.5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
   }
+.card:hover
+{
+  transorm:scale(1.2);
+}
   
   .top {
     background: rgba(255, 255, 255, 0.2);
